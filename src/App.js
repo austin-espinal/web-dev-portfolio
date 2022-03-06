@@ -2,9 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
-import Footer from './components/Footer';
 import Nav from './components/Nav';
-import Project from './components/Project';
+import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
@@ -12,11 +12,15 @@ import Resume from './components/Resume';
 function App() {
   return (
     <div className="App">
-      <Header>
-        <Nav></Nav>
-      </Header>
+      <header>
+      <Header></Header>
+      <Nav></Nav>
+      </header>
       <main>
-        <Project></Project>
+        <About></About>
+        <Portfolio></Portfolio>
+        <Contact></Contact>
+        <Resume></Resume>
       </main>
       <Footer></Footer>
     </div>
