@@ -45,18 +45,18 @@ function Project() {
     ]);
 
     return (
-        <div className="card">
+        <div>
             {projects.map((project) => (
-                <div className="card-body">
+                <div className="card">
                     <a href={project.url} target="_blank">
-                        <img
+                        {/* <img
                             src={require(`${project.image}`).default}
                             alt={project.name}
                             className="project-thumbnail"
                             key={project.name}
-                        />
+                        /> */}
                     </a>
-                    <div>
+                    <div className="card-body">
                         <h3>{project.name}</h3>
                         <FontAwesomeIcon icon={faGithub}><a href={project.git} target="_blank"></a></FontAwesomeIcon>
                     </div>
