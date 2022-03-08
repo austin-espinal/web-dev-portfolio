@@ -44,11 +44,11 @@ function App() {
 
   return (
     <div className="App">
-      <header>
+      <header className="bg">
       <Header></Header>
       <Nav currentPage={currentPage} pageChange={pageChange}/>
       </header>
-      <main>
+      <main className="bg-image">
         {renderPage()}
       </main>
       <Footer></Footer>

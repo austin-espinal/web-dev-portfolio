@@ -20,13 +20,26 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    background-color: var(--primary-color);
     color: white;
 }
 
+.bg {
+    background-color: var(--primary-color);
+}
+.bg-image {
+    background-image: url('../images/mahogany-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .project-thumbnail {
-    width: 700px;
-    height: 500px;
+    width: 350px;
+    height: 150px;
+}
+
+.profile-thumbnail {
+    width: 200px;
+    height: 200px;
 }
 
 .nav-link {

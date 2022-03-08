@@ -38,7 +38,7 @@ function Contact() {
     return (
         <section>
             <h1>Contact Me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <form id="contact-form" onSubmit={handleSubmit} className="bg">
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
