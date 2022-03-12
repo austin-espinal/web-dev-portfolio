@@ -37,27 +37,29 @@ function Contact() {
 
     return (
         <section>
-            <h1>Contact Me</h1>
-            <form id="contact-form" onSubmit={handleSubmit} className="bg">
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue={message} rows="5" onBlur={handleChange} />
-                </div>
-                {errorMessage && (
+            <h2 className="ml-1">Contact Me</h2>
+            <div className="bg container">
+                <form id="contact-form" onSubmit={handleSubmit}>
                     <div>
-                        <p className="error-text">{errorMessage}</p>
+                        <label htmlFor="name">Name:</label>
+                        <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
                     </div>
-                )}
-                <button type="submit">Submit</button>
-            </form>
+                    <div>
+                        <label htmlFor="email">Email address:</label>
+                        <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                    </div>
+                    <div>
+                        <label htmlFor="message">Message:</label>
+                        <textarea name="message" defaultValue={message} rows="5" onBlur={handleChange} />
+                    </div>
+                    {errorMessage && (
+                        <div>
+                            <p className="error-text">{errorMessage}</p>
+                        </div>
+                    )}
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </section>
     )
 }

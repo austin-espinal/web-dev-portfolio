@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
     return (
-        <div>
+        <div className="ml-1">
             <h1>Austin's Portfolio</h1>
         </div>
     );

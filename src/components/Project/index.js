@@ -51,20 +51,22 @@ function Project() {
     ]);
 
     return (
-        <div className="container">
+        <div>
             {projects.map((project) => (
-                <div className="card text-center col-sm-12 justify-space-around bg">
-                    <div>
-                        <img
-                            src={project.image}
-                            alt={project.name}
-                            className="project-thumbnail"
-                            key={project.name}
-                        />
-                    </div>
-                    <div className="card-body">
-                        <a href={project.url} target="_blank" rel="noreferrer"><h3>{project.name}</h3></a>
-                        <FontAwesomeIcon icon={faGithub}><a href={project.git} target="_blank" rel="noreferrer"></a></FontAwesomeIcon>
+                <div className="card flex-row text-center col-sm-12 justify-space-around">
+                    <div className="bg m-2">
+                        <div className="card-header">
+                            <img
+                                src={project.image}
+                                alt={project.name}
+                                className="project-thumbnail"
+                                key={project.name}
+                            />
+                        </div>
+                        <div className="card-body">
+                            <a href={project.url} target="_blank" rel="noreferrer"><h3>{project.name}</h3></a>
+                            <FontAwesomeIcon icon={faGithub}><a href={project.git} target="_blank" rel="noreferrer"></a></FontAwesomeIcon>
+                        </div>
                     </div>
                 </div>
             ))}

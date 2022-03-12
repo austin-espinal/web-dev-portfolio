@@ -2,8 +2,8 @@ import React from 'react';
 
 function Nav({ currentPage, pageChange }) {
     return (
-        <nav>
-            <ul className="flex-row">
+        <nav className="col-sm-12">
+            <ul className="flex-row align-right">
                 <li className="m-2">
                     <a
                         href="#about"

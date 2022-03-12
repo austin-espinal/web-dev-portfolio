@@ -43,12 +43,12 @@ function App() {
   const pageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="App">
-      <header className="bg">
+    <div className="App bg">
+      <header className="flex-row">
       <Header></Header>
       <Nav currentPage={currentPage} pageChange={pageChange}/>
       </header>
-      <main className="bg-image">
+      <main className="bg-image mb-2">
         {renderPage()}
       </main>
       <Footer></Footer>
