@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 // import logo from './logo.svg';
 // import './App.css';
 import Header from './components/Header';
@@ -11,6 +11,10 @@ import Resume from './components/Resume';
 import './assets/css/style.css'
 
 function App() {
+  useEffect(() => {
+    document.title = "My Profile"
+  });
+
   const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
@@ -48,7 +52,7 @@ function App() {
       <Header></Header>
       <Nav currentPage={currentPage} pageChange={pageChange}/>
       </header>
-      <main className="bg-image mb-2">
+      <main className="bg-image">
         {renderPage()}
       </main>
       <Footer></Footer>

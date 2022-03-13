@@ -26,6 +26,7 @@ body {
 .bg {
     background-color: var(--primary-color);
 }
+
 .bg-image {
     background-image: url('../images/mahogany-hero.jpg');
     background-size: cover;
@@ -55,6 +56,32 @@ body {
 li {
     list-style: none;
 }
+
+.border {
+  border: var(--primary-color);
+}
+
+img {
+  pointer-events: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--quaternary-color);
+}
+
+nav a:hover{
+  background-color: var(--tertiary-color);
+}
+
+#link-icons {
+  font-size: 25px;
+}
+
 
 /* CARDS */
 .card {
@@ -597,6 +624,9 @@ li {
   
   .round-80-25 {
     border-radius: 80px 25px;
+  }
+  .round-25 {
+    border-radius: 25px;
   }
   
   .opacity-8 {

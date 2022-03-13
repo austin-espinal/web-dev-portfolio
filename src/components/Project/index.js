@@ -65,7 +65,7 @@ function Project() {
                         </div>
                         <div className="card-body">
                             <a href={project.url} target="_blank" rel="noreferrer"><h3>{project.name}</h3></a>
-                            <FontAwesomeIcon icon={faGithub}><a href={project.git} target="_blank" rel="noreferrer"></a></FontAwesomeIcon>
+                            <a href={project.git} target="_blank" rel="noreferrer" id="link-icons"><FontAwesomeIcon icon={faGithub} /></a>
                         </div>
                     </div>
                 </div>

@@ -4,11 +4,11 @@ import { faGithub, faLinkedin, faStackOverflow } from "@fortawesome/free-brands-
 
 function Footer() {
     return (
-        <footer className="flex-row bg">
-            <div className="container flex-row">
-            <FontAwesomeIcon icon={faGithub}><a href="https://github.com/austin-espinal" target="_blank" rel="noreferrer" aria-label="link to Austin's Github"></a></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faLinkedin}><a href="https://stackoverflow.com/users/18443433/austin-espinal" target="_blank" rel="noreferrer" aria-label="link to Austin's Linkedin"></a></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faStackOverflow}><a href="https://stackoverflow.com/users/18443433/austin-espinal" target="_blank" rel="noreferrer" aria-label="link to Austin's Stack Overflow"></a></FontAwesomeIcon>
+        <footer className="flex-row justify-space-around">
+            <div id="link-icons" className="align-center">
+            <a href="https://github.com/austin-espinal" target="_blank" rel="noreferrer" aria-label="icon link to Austin's Github"><FontAwesomeIcon icon={faGithub} className="m-2" /></a>
+            <a href="https://stackoverflow.com/users/18443433/austin-espinal" target="_blank" rel="noreferrer" aria-label="icon link to Austin's Linkedin"><FontAwesomeIcon icon={faLinkedin} className="m-2" /></a>
+            <a href="https://stackoverflow.com/users/18443433/austin-espinal" target="_blank" rel="noreferrer" aria-label="icon link to Austin's Stack Overflow"><FontAwesomeIcon icon={faStackOverflow} className="m-2" /></a>
             </div>
         </footer>
     );
