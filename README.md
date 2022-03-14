@@ -2,9 +2,9 @@
 
 ## Description 
 
-A portfolio for future employers to see all the work I have done and a means to contact me for potential job offers or project partnerships. These works are projects that I have done that showcase my skills in various coding languages and knowledge. Also informs future employers about me. The application uses Javascript, Node, and React. Below is a screenshot of the portfolio.
+A portfolio for future employers to see all the work I have done and a means to contact me for potential job offers or project partnerships. These works are projects that I have done that showcase my skills in various coding languages and knowledge. Also informs future employers about me. The application uses HTML, CSS, Javascript, Node, and React. Below is a screenshot of the portfolio.
 
-![Portfolio screenshot](/src/assets/images/web-dev-portfolio.png)
+![Portfolio screenshot](/src/assets/images/web-dev-portfolio2.png)
 
 ## Table of Contents
 
