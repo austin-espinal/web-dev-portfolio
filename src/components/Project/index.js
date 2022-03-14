@@ -53,7 +53,7 @@ function Project() {
     return (
         <div>
             {projects.map((project) => (
-                <div className="card flex-row text-center col-sm-12 justify-space-around">
+                <div className="card flex-row text-center col-sm-12 col-xl-6 justify-space-around">
                     <div className="bg m-2">
                         <div className="card-header">
                             <img
