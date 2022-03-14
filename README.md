@@ -17,7 +17,7 @@ A portfolio for future employers to see all the work I have done and a means to 
 (http://austin-espinal.github.io/web-dev-portfolio)
 Above is a link to the deployed portfolio.
 
-The About Me section has an image of me and a brief summary about me. The Portfolio section shows 6 projects that i have done. Visitors/future employers can click the title of the project to go to the deployed project. They can also click the github icon on each project to go to github repo. The Contact section allows visitors/future employers to contact me by entering their name, email, and a message. The Resume section has a list of my front-end and back-end proficiencies. Visitors/future employers are also able to download my resume via link near the top of resume section. 
+The About Me section has an image of me and a brief summary about me. The Portfolio section shows 6 projects that i have done. Visitors/future employers can click the title of the project to go to the deployed project. They can also click the github icon on each project to go to github repo. The Contact section allows visitors/future employers to contact me by entering their name, email, and a message. The Resume section has a list of my front-end and back-end proficiencies. Visitors/future employers are also able to download my resume via link near the top of resume section. The footer contains icon links to my Github, LinkedIn, and Stack Overflow. 
 
 ## Contributing
 
