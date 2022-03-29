@@ -4,7 +4,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 // import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import image1 from '../../assets/images/run-buddy.jpg'
 import image2 from '../../assets/images/horiseon-refactor.png'
-import image3 from '../../assets/images/pizza-hunt.png'
+import image3 from '../../assets/images/atanime.png'
 import image4 from '../../assets/images/password-gen.jpg'
 import image5 from '../../assets/images/concierge.png'
 import image6 from '../../assets/images/not-inta-gram.png'
@@ -24,10 +24,10 @@ function Project() {
             git: 'https://github.com/austin-espinal/horiseon-refactor'
         },
         {
-            name: 'Pizza Hunt',
-            url: 'https://pizza-hunt-ae.herokuapp.com/',
+            name: 'ATAnime',
+            url: 'https://atanime.herokuapp.com/',
             image: `${image3}`,
-            git: 'https://github.com/austin-espinal/pizza-hunt'
+            git: 'https://github.com/Connor2h/A-T-Anime'
         },
         {
             name: 'Password Generator',
