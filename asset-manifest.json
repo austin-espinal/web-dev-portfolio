@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/web-dev-portfolio/static/css/main.2b6b99b8.css",
-    "main.js": "/web-dev-portfolio/static/js/main.17c44b02.js",
+    "main.js": "/web-dev-portfolio/static/js/main.58d98e8c.js",
     "static/js/787.59667174.chunk.js": "/web-dev-portfolio/static/js/787.59667174.chunk.js",
-    "static/media/pizza-hunt.png": "/web-dev-portfolio/static/media/pizza-hunt.170db2d02076c0659d44.png",
+    "static/media/atanime.png": "/web-dev-portfolio/static/media/atanime.6059f5c8feb90d318146.png",
     "static/media/concierge.png": "/web-dev-portfolio/static/media/concierge.9129a2297237dd57a065.png",
     "static/media/not-inta-gram.png": "/web-dev-portfolio/static/media/not-inta-gram.08526d19d5a1bbd82751.png",
     "static/media/web-dev-resume.pdf": "/web-dev-portfolio/static/media/web-dev-resume.0457903b027981b5513e.pdf",
@@ -14,11 +14,11 @@
     "static/media/password-gen.jpg": "/web-dev-portfolio/static/media/password-gen.a80a8b3f60b7ff58ccfb.jpg",
     "index.html": "/web-dev-portfolio/index.html",
     "main.2b6b99b8.css.map": "/web-dev-portfolio/static/css/main.2b6b99b8.css.map",
-    "main.17c44b02.js.map": "/web-dev-portfolio/static/js/main.17c44b02.js.map",
+    "main.58d98e8c.js.map": "/web-dev-portfolio/static/js/main.58d98e8c.js.map",
     "787.59667174.chunk.js.map": "/web-dev-portfolio/static/js/787.59667174.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b6b99b8.css",
-    "static/js/main.17c44b02.js"
+    "static/js/main.58d98e8c.js"
   ]
 }
