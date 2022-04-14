@@ -3,7 +3,7 @@ import myResume from "../../assets/web-dev-resume.pdf"
 
 function Resume() {
     return (
-        <div>
+        <main className="bg-image">
             <h2 className="mb-1 ml-1">Resume</h2>
             <p className="ml-2">To download my resume, please click here: <a href={myResume} download ="Austin Espinal's Resume">My Resume</a></p>
             <h3 className="mt-2 ml-1">Front-end Proficiencies:</h3>
@@ -30,7 +30,7 @@ function Resume() {
                 <li>React</li>
                 <li>GraphQL</li>
             </ul>
-        </div>
+        </main>
     );
 }
 

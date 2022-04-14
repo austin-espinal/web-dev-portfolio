@@ -44,18 +44,18 @@ function Contact() {
     }
 
     return (
-        <section>
+        <main className="bg-image">
             <h2 className="ml-1">Contact Me</h2>
             <div className="container">
                 <div className="bg round-25 m-2 p-2">
                     <form id="contact-form" ref={form} onSubmit={handleSubmit}>
                         <div>
                             <label htmlFor="name">Name:</label>
-                            <input type="text" name="user_name" defaultValue={name} onBlur={handleChange} />
+                            <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
                         </div>
                         <div>
                             <label htmlFor="email">Email address:</label>
-                            <input type="email" name="user_email" defaultValue={email} onBlur={handleChange} />
+                            <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
                         </div>
                         <div>
                             <label htmlFor="message">Message:</label>
@@ -70,7 +70,7 @@ function Contact() {
                     </form>
                 </div>
             </div>
-        </section>
+        </main>
     )
 }
 
