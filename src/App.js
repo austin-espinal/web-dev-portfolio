@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -11,22 +11,22 @@ import './assets/css/style.css'
 
 function App() {
   return (
-    <Router>
-      <div className="App bg">
-        <div className="flex-row">
-          <Header />
-          <div>
-            <Routes>
-              <Route path="/" element={<About />} />
-              <Route path="/portfolio" element={<Portfolio />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/resume" element={<Resume />} />
-            </Routes>
-          </div>
-        </div>
+    <div className="App bg">
+      <div>
+        <Header />
+      </div>
+      <div>
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+      </div>
+      <div>
         <Footer></Footer>
       </div>
-    </Router>
+    </div>
   );
 }
 

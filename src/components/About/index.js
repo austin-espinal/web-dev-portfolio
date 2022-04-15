@@ -3,7 +3,7 @@ import profileImage from "../../assets/images/me2.jpg"
 
 function About() {
     return (
-        <main className="bg-image">
+        <main className="bg-image page">
             <div className="flex-row">
                 <h2 className="m-1">About Me</h2>
                 <div className="container">

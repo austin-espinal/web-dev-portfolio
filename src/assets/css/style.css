@@ -16,13 +16,15 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+      color: white;
 }
-
-body {
-    font-family: Helvetica, Arial, sans-serif;
-    color: white;
+.page {
+  min-height: 100vh;
 }
-
 .bg {
     background-color: var(--primary-color);
 }
@@ -808,6 +810,9 @@ nav a:hover{
       width: 400px;
       height: 200px;
   }
+  body {
+    font-size: 25px;
+  }
 
     .col-md-auto {
       flex-grow: 1;
@@ -871,7 +876,7 @@ nav a:hover{
   }
 
   body {
-    font-size: 25px;
+    font-size: 30px;
   }
 
     nav {

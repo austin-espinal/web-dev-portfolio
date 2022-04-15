@@ -35,16 +35,17 @@ function Contact() {
     function handleSubmit(e) {
         e.preventDefault();
         // console.log(formState);
-        emailjs.sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, form.current, process.env.USER_ID)
+        emailjs.sendForm('service_9dtm9jn', 'template_1rg4cmj', form.current, 'rZAizi5PK_QF7BXfB')
             .then((result) => {
                 console.log(result.text);
+                window.location.reload(false);
             }, (error) => {
                 console.log(error.text);
             });
     }
 
     return (
-        <main className="bg-image">
+        <main className="bg-image page">
             <h2 className="ml-1">Contact Me</h2>
             <div className="container">
                 <div className="bg round-25 m-2 p-2">
