@@ -38,9 +38,11 @@ function Contact() {
         emailjs.sendForm('service_9dtm9jn', 'template_1rg4cmj', form.current, 'rZAizi5PK_QF7BXfB')
             .then((result) => {
                 console.log(result.text);
+                window.alert("Message Sent!");
                 window.location.reload(false);
             }, (error) => {
                 console.log(error.text);
+                window.alert("Error! message was not sent");
             });
     }
 
@@ -51,16 +53,13 @@ function Contact() {
                 <div className="bg round-25 m-2 p-2">
                     <form id="contact-form" ref={form} onSubmit={handleSubmit}>
                         <div>
-                            <label htmlFor="name">Name:</label>
-                            <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                            <input type="text" name="name" defaultValue={name} placeholder="Name" onBlur={handleChange} />
                         </div>
                         <div>
-                            <label htmlFor="email">Email address:</label>
-                            <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                            <input type="email" name="email" defaultValue={email} placeholder="Email" onBlur={handleChange} />
                         </div>
                         <div>
-                            <label htmlFor="message">Message:</label>
-                            <textarea name="message" defaultValue={message} rows="5" onBlur={handleChange} />
+                            <textarea name="message" defaultValue={message} placeholder="Message" onBlur={handleChange} />
                         </div>
                         {errorMessage && (
                             <div>
