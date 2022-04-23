@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/web-dev-portfolio/static/css/main.41b5c18e.css",
-    "main.js": "/web-dev-portfolio/static/js/main.ceb954f9.js",
+    "main.js": "/web-dev-portfolio/static/js/main.bc2f3f1c.js",
     "static/js/787.59667174.chunk.js": "/web-dev-portfolio/static/js/787.59667174.chunk.js",
     "static/media/atanime.png": "/web-dev-portfolio/static/media/atanime.6059f5c8feb90d318146.png",
     "static/media/concierge.png": "/web-dev-portfolio/static/media/concierge.9129a2297237dd57a065.png",
     "static/media/not-inta-gram.png": "/web-dev-portfolio/static/media/not-inta-gram.08526d19d5a1bbd82751.png",
-    "static/media/web-dev-resume.pdf": "/web-dev-portfolio/static/media/web-dev-resume.a8d410115c01ab61afee.pdf",
+    "static/media/web-dev-resume.pdf": "/web-dev-portfolio/static/media/web-dev-resume.39a8fcf33318e4f783cf.pdf",
     "static/media/me2.jpg": "/web-dev-portfolio/static/media/me2.d820daef7661c7ff0573.jpg",
     "static/media/run-buddy.jpg": "/web-dev-portfolio/static/media/run-buddy.79f88543ed1e45401b0f.jpg",
     "static/media/mahogany-hero.jpg": "/web-dev-portfolio/static/media/mahogany-hero.dc1f4490166d37cb9478.jpg",
@@ -14,11 +14,11 @@
     "static/media/password-gen.jpg": "/web-dev-portfolio/static/media/password-gen.a80a8b3f60b7ff58ccfb.jpg",
     "index.html": "/web-dev-portfolio/index.html",
     "main.41b5c18e.css.map": "/web-dev-portfolio/static/css/main.41b5c18e.css.map",
-    "main.ceb954f9.js.map": "/web-dev-portfolio/static/js/main.ceb954f9.js.map",
+    "main.bc2f3f1c.js.map": "/web-dev-portfolio/static/js/main.bc2f3f1c.js.map",
     "787.59667174.chunk.js.map": "/web-dev-portfolio/static/js/787.59667174.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41b5c18e.css",
-    "static/js/main.ceb954f9.js"
+    "static/js/main.bc2f3f1c.js"
   ]
 }
